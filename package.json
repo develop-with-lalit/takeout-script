@@ -1,0 +1,16 @@
+{
+  "name": "takeout-script",
+  "version": "1.0.0",
+  "description": "script to separate images and video files from a given directory",
+  "main": "src/localFileHandler.js",
+  "scripts": {
+    "start": "node src/localFileHandler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lalit Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.14",
+    "decompress": "^4.2.1"
+  }
+}
